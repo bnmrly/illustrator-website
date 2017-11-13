@@ -23,7 +23,7 @@ Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style
   width: 100%;
 }
 
-/* Forces Footer to bottom of content or page */
+/* Force Footer to bottom of content or page */
 
 html {
   height: 100%;
@@ -60,16 +60,16 @@ h1, h2, h3, h4, h5 {
 /* MENU AND NAV */
 
 .site-header-wrapper {
-  /*background-color: #ffaa80;*/
+  background-color: rgba(43, 43, 43, 0.7);
   margin-top: -2em;
 }
 
 #site-menu {
-  padding-top:0.9em;
+  padding-top: 0.9em;
 }
 
 .menu-toggle {
-  /*background-color: #ffaa80;*/
+  background-color: transparent;
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
   text-transform: none;
   font-weight: normal;
@@ -84,12 +84,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 
 }
 
-/*.menu-item {
-  background-color: #ffaa80;
-}*/
-
-#menu-item-138 {
-  padding-right:0.5em;
+.primary-menu:last-child {
+  padding-right: 0.5em;
 }
 
 .site-branding {
@@ -119,13 +115,18 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .menu-toggle:active:hover, .menu-toggle:focus:hover {
-  /*background-color: #ffaa80;*/
+background-color: transparent;
+color: white;
 }
 
 .menu-toggle:active, .menu-toggle:focus {
-  /*background-color: #ffaa80;*/
   border-color: transparent;
-  color: gray;
+  background-color: transparent;
+  color: white;
+}
+
+.site-menu.toggled-on {
+  min-height: 100vh;
 }
 
 .site-menu .toggled-on li {
@@ -153,6 +154,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   display: none;
 }
 
+
 /* FOOTER */
 
 .entry-footer,
@@ -161,6 +163,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .site-footer {
+  background-color: rgba(43, 43, 43, 0.7);
   padding-bottom: 0;
 }
 
@@ -168,11 +171,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   position: absolute;
   bottom: 0!important;
   width: 100%;
-  /*background-color: #ffaa80;*/
 }
 
 .site-info {
-  /*background-color: #ffaa80;*/
   display: inline;
   line-height: 3em;
 }
@@ -243,8 +244,9 @@ a:focus {
 }
 
 .current-menu-item a {
-  color: gray;
+  color: #ffaa80;
 }
+
 
 /* SWIPEBOX SLIDESHOW */
 
@@ -256,24 +258,10 @@ a:focus {
   background-color: #0d0d0d
 }
 
+
 /* SPECIFIC PAGES */
 
-/* HOME PAGE */
-
-.page-id-34 .site-header-wrapper,
-.page-id-34 .menu-toggle,
-.page-id-34 .menu-item,
-.page-id-34 .menu-toggle:active:hover,
-.page-id-34 .menu-toggle:focus:hover,
-.page-id-34 #colophon,
-.page-id-34 .site-footer,
-.page-id-34 .site-info {
-  background-color:#2b2b2b;
-}
-
-.page-id-34 .site-menu .toggled-on li {
-  /*background-color: #ffaa80;*/
-}
+/* HOME */
 
 .page-id-34 {
   background-image: url("http://jimnewcombe.co.uk/wp-content/uploads/2016/10/homepage_a.jpg");
@@ -393,24 +381,6 @@ a:focus {
 
 /* CODA PAGE */
 
-.page-id-436 .site-header-wrapper,
-.page-id-436 .menu-toggle,
-.page-id-436 .menu-item,
-.page-id-436 .menu-toggle:active:hover,
-.page-id-436 .menu-toggle:focus:hover,
-.page-id-436 #colophon,
-.page-id-436 .site-footer,
-.page-id-436 .site-info {
-  background-color:#2b2b2b;
-}
-
-.page-id-436 #site-menu .site-menu .toggled-on li {
-  color: #ffaa80;
-}
-
-/*replaced all .page-id-436 with page .page-id="436" on local*/
-
-
 .page-id-436 {
   background-image: url("http://jimnewcombe.co.uk/wp-content/uploads/2016/10/homepage_b.jpg");
   background-size: cover;
@@ -435,6 +405,7 @@ a:focus {
   display: none;
 }
 
+
 /* POETRY-PAGE, REVIEWS-PAGE, FICTION PAGE, LINKS PAGE TEMPLATES  */
 
 .page-id-15 #content,
@@ -458,7 +429,7 @@ a:focus {
   float: none;
   word-wrap: normal;
   height: 3.5em;
-  background-color:#2b2b2b;
+  background-color: rgba(43, 43, 43, 0.7);
   border: 2px solid;
   display: block;
   min-width: 50%;
