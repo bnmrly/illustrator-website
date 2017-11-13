@@ -1,0 +1,512 @@
+/*
+Theme Name: Orvis Child Theme
+Theme URI: https://wordpress.com/themes/orvis/
+Description: A child theme of Orvis by Automattic. Orvis is a portfolio theme crafted with designers and photographers in mind. It's a minimalist, powerful, and flexible theme that puts the focus on your projects.
+Version: 1.1.0
+Author: Ben Marley
+Author URI: http://www.benmarley.co.uk/
+Template:orvis
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: orvis
+Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, photography, portfolio, right-sidebar, rtl-language-support, sticky-post, theme-options, translation-ready, two-columns
+*/
+
+
+/* GENERAL */
+
+#page {
+  width: 100%;
+}
+
+#primary {
+  width: 100%;
+}
+
+/* Forces Footer to bottom of content or page */
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 2em;
+}
+
+li {
+  list-style: none;
+}
+
+ul, ol {
+  margin: 0;
+}
+
+
+/* FONT */
+
+* {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-weight: normal;
+}
+
+
+/* MENU AND NAV */
+
+.site-header-wrapper {
+  /*background-color: #ffaa80;*/
+  margin-top: -2em;
+}
+
+#site-menu {
+  padding-top:0.9em;
+}
+
+.menu-toggle {
+  /*background-color: #ffaa80;*/
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  text-transform: none;
+  font-weight: normal;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  border: none;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0.5em;
+
+}
+
+/*.menu-item {
+  background-color: #ffaa80;
+}*/
+
+#menu-item-138 {
+  padding-right:0.5em;
+}
+
+.site-branding {
+  margin-top: 2.1em;
+  padding-left: 0.5em;
+}
+
+.site-title a:hover {
+  box-shadow: none;
+}
+
+.site-title p a:active {
+  box-shadow: none;
+  color: gray !important;
+}
+
+.site-title {
+  margin-bottom: 0.2em!important;
+}
+
+.entry-title a:focus, .entry-title a:hover, .portfolio-entry-title a:focus, .portfolio-entry-title a:hover, .site-title a:focus, .site-title a:hover {
+  box-shadow: none;
+}
+
+.main-navigation li {
+  padding-left:0.25em;
+}
+
+.menu-toggle:active:hover, .menu-toggle:focus:hover {
+  /*background-color: #ffaa80;*/
+}
+
+.menu-toggle:active, .menu-toggle:focus {
+  /*background-color: #ffaa80;*/
+  border-color: transparent;
+  color: gray;
+}
+
+.site-menu .toggled-on li {
+  font-weight: bold !important;
+}
+
+
+/* MAIN CONTENT AREA */
+
+.page .entry-header,
+.page .entry-title {
+  display: none !important;
+}
+
+#main {
+  padding-top:2em;
+  padding-bottom: 1em;
+}
+
+#content {
+  margin-top: -2em;
+}
+
+.widget-area {
+  display: none;
+}
+
+/* FOOTER */
+
+.entry-footer,
+.site-footer:before {
+  display: none;
+}
+
+.site-footer {
+  padding-bottom: 0;
+}
+
+#colophon, .site-footer {
+  position: absolute;
+  bottom: 0!important;
+  width: 100%;
+  /*background-color: #ffaa80;*/
+}
+
+.site-info {
+  /*background-color: #ffaa80;*/
+  display: inline;
+  line-height: 3em;
+}
+
+.site-info img {
+  margin-bottom: -1.5em;
+}
+
+.site-footer-wrapper {
+  color: white;
+  display: inline;
+  text-align: right;
+  padding-right: 2px;
+}
+
+.site-footer a:focus, .site-footer a:hover {
+  box-shadow: none;
+}
+
+.email {
+  font-size: 1.25em;
+  font-weight:normal;
+  margin-top: -0.2em;
+  float:right;
+  padding-right:0.5em;
+}
+
+.site-design {
+  font-size: 1em;
+  font-weight:normal;
+  margin-top: -1.5em;
+  float: right;
+  padding-right: 0.5em;
+  clear:both;
+  padding-top:0.25em;
+  padding-bottom:0.25em;
+}
+
+.site-design a {
+  color:white;
+  font-weight: normal;
+}
+
+.facebook, .instagram {
+  margin-right: 0.3em;
+}
+
+
+/* LINKS */
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a
+{
+  font-weight: lighter;
+}
+
+.current-menu-item a {
+  color: gray;
+}
+
+/* SWIPEBOX SLIDESHOW */
+
+#swipebox-top-bar {
+  margin-top:-4em !important;
+}
+
+#swipebox-bottom-bar, #swipebox-arrows {
+  background-color: #0d0d0d
+}
+
+/* SPECIFIC PAGES */
+
+/* HOME PAGE */
+
+.page-id-34 .site-header-wrapper,
+.page-id-34 .menu-toggle,
+.page-id-34 .menu-item,
+.page-id-34 .menu-toggle:active:hover,
+.page-id-34 .menu-toggle:focus:hover,
+.page-id-34 #colophon,
+.page-id-34 .site-footer,
+.page-id-34 .site-info {
+  background-color:#2b2b2b;
+}
+
+.page-id-34 .site-menu .toggled-on li {
+  /*background-color: #ffaa80;*/
+}
+
+.page-id-34 {
+  background-image: url("http://jimnewcombe.co.uk/wp-content/uploads/2016/10/homepage_a.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+/* ABOUT-SINGLE-PAGE TEMPLATE  */
+
+.page-template-about-single-page #main {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#post-404 > div > p:nth-child(2) {
+  margin-top: -1.75em !important;
+}
+
+
+/* ARTWORK PAGE */
+
+.page-id-45 #content {
+  margin-top:-3em!important;
+}
+
+.gallery {
+  margin:0;
+}
+
+.gallery-caption {
+  font-size:1em;
+  padding-top:0.25em;
+}
+
+
+/* POEM-SINGLE-PAGE TEMPLATE  */
+
+.page-template-poem-single-page #main {
+  width:80%;
+  margin-left: auto;
+  margin-top:0.5em;
+  margin-right: auto;
+}
+
+.back-poetry {
+  float:right;
+  margin-top:0.5em;
+  padding-right:0.5em;
+}
+
+.back-poetry a {
+  font-size: 0.75em;
+}
+
+
+/* REVIEW-SINGLE-PAGE TEMPLATE  */
+
+.page-template-review-single-page #main {
+  width:80%;
+  margin-left: auto;
+  margin-top:0.5em;
+  margin-right: auto;
+}
+
+.back-reviews {
+  float:right;
+  margin-top:0.5em;
+  padding-right:0.5em;
+}
+
+.back-reviews a {
+  font-size: 0.75em;
+}
+
+
+/* FICTION-SINGLE-PAGE TEMPLATE  */
+
+.page-template-fiction-single-page #main {
+  width:80%;
+  margin-left: auto;
+  margin-top:0.5em;
+  margin-right: auto;
+
+}
+
+.back-fiction {
+  float:right;
+  margin-top:0.5em;
+  padding-right:0.5em;
+}
+
+.back-fiction a {
+  font-size: 0.75em;
+}
+
+
+/* BIOGRAPHY-SINGLE-PAGE TEMPLATE  */
+
+.page-template-biography-page #main {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* LINKS-PAGE TEMPLATE  */
+
+.page-template-links-page #main {
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* CODA PAGE */
+
+.page-id-436 .site-header-wrapper,
+.page-id-436 .menu-toggle,
+.page-id-436 .menu-item,
+.page-id-436 .menu-toggle:active:hover,
+.page-id-436 .menu-toggle:focus:hover,
+.page-id-436 #colophon,
+.page-id-436 .site-footer,
+.page-id-436 .site-info {
+  background-color:#2b2b2b;
+}
+
+.page-id-436 #site-menu .site-menu .toggled-on li {
+  color: #ffaa80;
+}
+
+/*replaced all .page-id-436 with page .page-id="436" on local*/
+
+
+.page-id-436 {
+  background-image: url("http://jimnewcombe.co.uk/wp-content/uploads/2016/10/homepage_b.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.page-id-436 .entry-content p {
+  text-align:center;
+  background-color: rgba(43, 43, 43, 0.7);
+  word-wrap: normal;
+  height: 2em;
+  padding-top: 0.25em;
+  width: 100%;
+  bottom: -1.75em;
+  position: fixed;
+  font-size: 0.85em;
+}
+
+.page-id-436 #colophon,
+.page-id-436 .site-footer {
+  display: none;
+}
+
+/* POETRY-PAGE, REVIEWS-PAGE, FICTION PAGE, LINKS PAGE TEMPLATES  */
+
+.page-id-15 #content,
+.page-id-13 #content,
+.page-id-17 #content,
+.page-id-555 #content {
+  margin-bottom:2em;
+}
+
+.poetry-page-titles, .reviews-page-titles, .fiction-page-titles, .links-page-titles {
+  text-align:center;
+  margin-top: 2em;
+  margin-bottom:2.5em;
+}
+
+.poems, .reviews, .fiction, .links {
+  display: block;
+}
+
+.poems li, .reviews li, .fiction li, .links li {
+  float: none;
+  word-wrap: normal;
+  height: 3.5em;
+  background-color:#2b2b2b;
+  border: 2px solid;
+  display: block;
+  min-width: 50%;
+  max-width: 90%;
+  margin: 1em auto;
+  padding-top:0.25em;
+}
+
+.poems li a, .reviews li a, .fiction li a .links li a {
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 370px) {
+  .contact {
+    float: left;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .site-branding {
+    margin-top: 48px !important;
+  }
+}
+
+
+@media screen and (max-width: 1281px) {
+  .alignright  {
+    float:none !important;
+    margin-left: 0em !important;
+    margin-bottom:1em;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .poetry-page-titles, .reviews-page-titles, .fiction-page-titles, .links-page-titles {
+    font-size:0.9em !important;
+  }
+}
+
+  @media screen and (max-width: 600px) {
+    .gallery-caption {
+      font-size:0.8em;
+    }
+}
