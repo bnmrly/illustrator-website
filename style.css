@@ -268,7 +268,8 @@ a:focus {
 
 .gallery-caption {
   font-size: 1em;
-  padding-top: 0.25em;
+  font-style: italic;
+  padding-top: 0.6em;
 }
 
 
