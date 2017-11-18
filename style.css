@@ -397,12 +397,6 @@ a:focus {
   margin-bottom:2.5em;
 }
 
-.poems, .reviews, .fiction, .links {
-  display: block;
-}
-
-/*.poems li, .reviews li, .fiction li, .links li */
-
 .item {
   float: none;
   word-wrap: normal;
