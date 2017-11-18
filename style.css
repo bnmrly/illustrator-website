@@ -407,6 +407,6 @@ a:focus {
 }
 
 @media screen and (min-width: 1344px) {
-	#page, #colophon {
+	#page, #colophon, .page-id-436 .entry-content p  {
 		width: 1248px;
 	}
