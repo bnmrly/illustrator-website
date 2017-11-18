@@ -363,13 +363,19 @@ a:focus {
 
 .item {
   height: 3.5em;
-  line-height: 2.5em;
-  border: 2px solid #ffaa80;
   display: block;
   min-width: 50%;
-  max-width: 70%;
+  max-width: 80%;
   margin: 1em auto;
   padding-top: 0.25em;
+}
+
+.item a {
+  color: #ffaa80;
+}
+
+.item a:hover {
+  color: gray;
 }
 
 /* MEDIA QUERIES */
