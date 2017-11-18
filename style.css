@@ -280,13 +280,13 @@ a:focus {
   margin-right: auto;
 }
 
-.back-poetry {
+.back {
   float: right;
   margin-top: 0.5em;
   padding-right: 0.5em;
 }
 
-.back-poetry a {
+.back-link {
   font-size: 0.75em;
 }
 
@@ -300,17 +300,6 @@ a:focus {
   margin-right: auto;
 }
 
-.back-reviews {
-  float: right;
-  margin-top: 0.5em;
-  padding-right: 0.5em;
-}
-
-.back-reviews a {
-  font-size: 0.75em;
-}
-
-
 /* FICTION-SINGLE-PAGE TEMPLATE  */
 
 .page-template-fiction-single-page #main {
@@ -320,17 +309,6 @@ a:focus {
   margin-right: auto;
 
 }
-
-.back-fiction {
-  float: right;
-  margin-top: 0.5em;
-  padding-right: 0.5em;
-}
-
-.back-fiction a {
-  font-size: 0.75em;
-}
-
 
 /* BIOGRAPHY-SINGLE-PAGE TEMPLATE AND  LINKS-PAGE TEMPLATE */
 
