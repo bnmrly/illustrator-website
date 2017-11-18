@@ -150,9 +150,9 @@ color: white;
   margin-top: -2em;
 }
 
-.widget-area {
+/*.widget-area {
   display: none;
-}
+}*/
 
 
 /* FOOTER */
@@ -178,10 +178,6 @@ color: white;
   line-height: 3em;
 }
 
-.site-info img {
-  margin-bottom: -1.5em;
-}
-
 .site-footer-wrapper {
   color: white;
   display: inline;
@@ -193,31 +189,38 @@ color: white;
   box-shadow: none;
 }
 
-.email {
-  font-size: 1.25em;
-  font-weight:normal;
-  margin-top: -0.2em;
-  float:right;
-  padding-right:0.5em;
+.site-info__image {
+  margin-bottom: -1.5em;
 }
 
-.site-design {
+.site-info__contact {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin-top: -0.2em;
+  float: right;
+  padding-right: 0.5em;
+}
+
+.site-info__design {
   font-size: 1em;
-  font-weight:normal;
+  font-weight: normal;
   margin-top: -1.5em;
   float: right;
   padding-right: 0.5em;
-  clear:both;
-  padding-top:0.25em;
-  padding-bottom:0.25em;
+  clear: both;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
-.site-design a {
-  color:white;
-  font-weight: normal;
+.site-info--link {
+  color: white !important;
 }
 
-.facebook, .instagram {
+.site-info--link:hover {
+  color: gray !important;
+}
+
+.site-info__facebook, .site-info__instagram {
   margin-right: 0.3em;
 }
 
@@ -291,12 +294,12 @@ a:focus {
 }
 
 .gallery {
-  margin:0;
+  margin: 0;
 }
 
 .gallery-caption {
-  font-size:1em;
-  padding-top:0.25em;
+  font-size: 1em;
+  padding-top: 0.25em;
 }
 
 
@@ -310,9 +313,9 @@ a:focus {
 }
 
 .back-poetry {
-  float:right;
-  margin-top:0.5em;
-  padding-right:0.5em;
+  float: right;
+  margin-top: 0.5em;
+  padding-right: 0.5em;
 }
 
 .back-poetry a {
@@ -323,16 +326,16 @@ a:focus {
 /* REVIEW-SINGLE-PAGE TEMPLATE  */
 
 .page-template-review-single-page #main {
-  width:80%;
+  width: 80%;
   margin-left: auto;
-  margin-top:0.5em;
+  margin-top: 0.5em;
   margin-right: auto;
 }
 
 .back-reviews {
-  float:right;
-  margin-top:0.5em;
-  padding-right:0.5em;
+  float: right;
+  margin-top: 0.5em;
+  padding-right: 0.5em;
 }
 
 .back-reviews a {
@@ -343,17 +346,17 @@ a:focus {
 /* FICTION-SINGLE-PAGE TEMPLATE  */
 
 .page-template-fiction-single-page #main {
-  width:80%;
+  width: 80%;
   margin-left: auto;
-  margin-top:0.5em;
+  margin-top: 0.5em;
   margin-right: auto;
 
 }
 
 .back-fiction {
-  float:right;
-  margin-top:0.5em;
-  padding-right:0.5em;
+  float: right;
+  margin-top: 0.5em;
+  padding-right: 0.5em;
 }
 
 .back-fiction a {
@@ -361,23 +364,14 @@ a:focus {
 }
 
 
-/* BIOGRAPHY-SINGLE-PAGE TEMPLATE  */
+/* BIOGRAPHY-SINGLE-PAGE TEMPLATE AND  LINKS-PAGE TEMPLATE */
 
-.page-template-biography-page #main {
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-/* LINKS-PAGE TEMPLATE  */
-
+.page-template-biography-page #main,
 .page-template-links-page #main {
-  width:80%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 /* CODA PAGE */
 
@@ -415,7 +409,7 @@ a:focus {
   margin-bottom:2em;
 }
 
-.poetry-page-titles, .reviews-page-titles, .fiction-page-titles, .links-page-titles {
+.titles {
   text-align:center;
   margin-top: 2em;
   margin-bottom:2.5em;
@@ -425,7 +419,9 @@ a:focus {
   display: block;
 }
 
-.poems li, .reviews li, .fiction li, .links li {
+/*.poems li, .reviews li, .fiction li, .links li */
+
+.item {
   float: none;
   word-wrap: normal;
   height: 3.5em;
@@ -438,7 +434,7 @@ a:focus {
   padding-top:0.25em;
 }
 
-.poems li a, .reviews li a, .fiction li a .links li a {
+.titles a, .reviews li a, .fiction li a .links li a {
   background-color: transparent;
   border: none;
   line-height: 0;
