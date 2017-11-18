@@ -362,16 +362,14 @@ a:focus {
 }
 
 .item {
-  float: none;
-  word-wrap: normal;
   height: 3.5em;
-  background-color: rgba(43, 43, 43, 0.7);
-  border: 2px solid;
+  line-height: 2.5em;
+  border: 2px solid #ffaa80;
   display: block;
   min-width: 50%;
-  max-width: 90%;
+  max-width: 70%;
   margin: 1em auto;
-  padding-top:0.25em;
+  padding-top: 0.25em;
 }
 
 /* MEDIA QUERIES */
