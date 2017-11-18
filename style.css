@@ -101,7 +101,7 @@ color: white;
 }
 
 .site-menu.toggled-on {
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .site-menu .toggled-on li {
@@ -239,6 +239,7 @@ a:focus {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 
@@ -326,6 +327,7 @@ a:focus {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .page-id-436 .entry-content p {
