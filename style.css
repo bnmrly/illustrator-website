@@ -405,3 +405,8 @@ a:focus {
       font-size:0.8em;
     }
 }
+
+@media screen and (min-width: 1344px) {
+	#page, #colophon {
+		width: 1248px;
+	}
