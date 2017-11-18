@@ -418,13 +418,11 @@ a:focus {
   }
 }
 
-
 @media screen and (min-width: 600px) {
   .site-branding {
     margin-top: 48px !important;
   }
 }
-
 
 @media screen and (max-width: 1281px) {
   .alignright  {
@@ -434,9 +432,8 @@ a:focus {
   }
 }
 
-
 @media screen and (max-width: 600px) {
-  .poetry-page-titles, .reviews-page-titles, .fiction-page-titles, .links-page-titles {
+  .titles {
     font-size:0.9em !important;
   }
 }
