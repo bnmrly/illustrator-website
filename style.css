@@ -15,11 +15,7 @@ Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style
 
 /* GENERAL */
 
-#page {
-  width: 100%;
-}
-
-#primary {
+#page, #primary  {
   width: 100%;
 }
 
@@ -33,10 +29,6 @@ body {
   min-height: 100%;
   position: relative;
   padding-bottom: 2em;
-}
-
-li {
-  list-style: none;
 }
 
 ul, ol {
