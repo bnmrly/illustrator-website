@@ -410,13 +410,6 @@ a:focus {
   padding-top:0.25em;
 }
 
-.titles a, .reviews li a, .fiction li a .links li a {
-  background-color: transparent;
-  border: none;
-  line-height: 0;
-}
-
-
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 370px) {
