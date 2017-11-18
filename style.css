@@ -57,7 +57,6 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 0.5em;
-
 }
 
 .primary-menu:last-child {
@@ -125,11 +124,6 @@ color: white;
 #content {
   margin-top: -2em;
 }
-
-/*.widget-area {
-  display: none;
-}*/
-
 
 /* FOOTER */
 
