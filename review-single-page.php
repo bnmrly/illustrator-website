@@ -5,9 +5,9 @@ Template Name: review-single-page
 
 get_header(); ?>
 	<div id="primary" class="content-area">
-		<div class="back-reviews">
+		<div class="back">
 			<p>
-				<a href="http://jimnewcombe.co.uk/book-reviews/">Back to <b>Book Reviews</b></a>
+				<a class="back__link" href="http://jimnewcombe.co.uk/book-reviews/">Back to <b>Book Reviews</b></a>
 			</p>
 		</div><!-- back-reviews -->
 		<main id="main" class="site-main" role="main">

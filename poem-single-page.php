@@ -5,9 +5,9 @@ Template Name: poem-single-page
 
 get_header(); ?>
 	<div id="primary" class="content-area">
-		<div class="back-poetry">
+		<div class="back">
 			<p>
-				<a href="http://jimnewcombe.co.uk/poetry/">Back to <b>Poetry</b></a>
+				<a class="back__link" href="http://jimnewcombe.co.uk/poetry/">Back to <b> Poetry</b></a>
 			</p>
 		</div><!-- back-poetry -->
 		<main id="main" class="site-main" role="main">

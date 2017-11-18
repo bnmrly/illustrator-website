@@ -5,10 +5,8 @@ Template Name: fiction-single-page
 
 get_header(); ?>
 <div id="primary" class="content-area">
-	<div class="back-fiction">
-		<p>
-			<a href="http://jimnewcombe.co.uk/fiction/">Back to <b>Fiction</b></a>
-		</p>
+	<div class="back">
+		<p>Back to<a class="back__link" href="http://jimnewcombe.co.uk/fiction/"><b> Fiction</b></a></p>
 	</div><!-- back-fiction -->
 
 	<main id="main" class="site-main" role="main">
@@ -28,5 +26,6 @@ get_header(); ?>
 
 	</main><!-- #main -->
 </div><!-- #primary -->
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
