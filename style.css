@@ -12,6 +12,10 @@ Text Domain: orvis
 Tags: custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, photography, portfolio, right-sidebar, rtl-language-support, sticky-post, theme-options, translation-ready, two-columns
 */
 
+/* This WordPress Child Theme is developed from Orvis by Automattic. As such, the stylesheet represents instances where I am both over-riding existing styles by targeting already-created classes, as well creating my own classes to meet the client's needs and deliver his desired look. When looking over the css in this file, please bear in mind that the classes used would not ordinarily be the author's own!
+
+Many thanks, Ben Marley 2016 */
+
 
 /* GENERAL */
 
